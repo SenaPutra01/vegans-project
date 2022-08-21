@@ -26,7 +26,7 @@ function App() {
           </div>
 
           <Fade top duration={4000}>
-            <img src='/img/movil-app.png' alt='' className='app__img' />
+            <img src='/img/app.png' alt='' className='app__img' />
           </Fade>
         </div>
       </section>

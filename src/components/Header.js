@@ -1,20 +1,16 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from 'react-scroll'
-import {BsMoon} from 'react-icons/bs';
 import {BiMenu} from 'react-icons/bi';
 import styled from 'styled-components';
 
-function Header() {  
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
-  
+function Header() {
   return (
     <div>
       <header className='l-header' id="header">
         <nav className='nav bd-container'>
           <NavLink to="home"><span className='nav__logo'>Vegan's</span></NavLink>
 
-          <div className='nav__menu' 
-            id={ isNavExpanded ? 'nav-menu' : 'show-menu'}>
+          <div className='nav__menu' id='nav-menu'>
             <ul className='nav__list'>
               <li className='nav__item'>
                 <NavLink to='home' spy={true} smooth={true} duration={100} activeClass='active'>Home</NavLink>
@@ -31,15 +27,10 @@ function Header() {
               <li className='nav__item'>
                 <NavLink to='contact' spy={true} smooth={true} duration={100} activeClass='active'>Contact</NavLink>
               </li>
-              <li><BsMoon className='change-theme' id="theme-button" /></li>
             </ul>
           </div>
 
-          <div className="nav__toggle" id="nav-toggle" 
-            onClick={() => {
-              setIsNavExpanded(!isNavExpanded)
-            }}
-          >
+          <div className="nav__toggle" id="nav-toggle">
             <BiMenu />
           </div>
         </nav>

@@ -397,6 +397,7 @@ img{
 .app__img{
   width: 230px;
   justify-self: center;
+  margin-left: 150px;
 }
 
 /*========== CONTACT ==========*/
