@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "image": "./img/plate1.png",
+      "menu_name": "Barbecue salad",
+      "menu_detail": "Delicious dish",
+      "price": 54000
+    },
+    {
+      "id": 2,
+      "image": "./img/plate2.png",
+      "menu_name": "Salad with fish",
+      "menu_detail": "Delicious dish",
+      "price": 45000
+    },
+    {
+      "id": 3,
+      "image": "./img/plate3.png",
+      "menu_name": "Barbecue Salad",
+      "menu_detail": "Delicious Dish",
+      "price": 34000
+    },
+    {
+      "id": 4,
+      "image": "./img/plate1.png",
+      "menu_name": "Spinach Salad",
+      "menu_detail": "Delicious Dish",
+      "price": 30000
+    },
+    {
+      "id": 5,
+      "image": "./img/plate3.png",
+      "menu_name": "Barbecue Salad",
+      "menu_detail": "Delicious Dish",
+      "price": 34000
+    },
+    {
+      "id": 6,
+      "image": "./img/plate2.png",
+      "menu_name": "Salad with fish",
+      "menu_detail": "Delicious dish",
+      "price": 45000
+    }
+  ]
+}
